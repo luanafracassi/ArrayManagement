@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ArrayManagement\ArrayManagement.csprj.csproj" />
+    <ProjectReference Include="..\ArrayManagement\ArrayManagement.csproj" />
   </ItemGroup>
 
 </Project>

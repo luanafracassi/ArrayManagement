@@ -22,14 +22,12 @@ namespace ArrayManagement
 
             if (array.Length <= toIndex || fromIndex < 0 || fromIndex >= toIndex)
                 return -1;
-            else
-            {
-                int index = fromIndex;
-                for (int i = fromIndex + 1; i <= toIndex; i++)
-                    if (array[i] < array[index])
-                        index = i;
-                return index;
-            }
+
+            int index = fromIndex;
+            for (int i = fromIndex + 1; i <= toIndex; i++)
+                if (array[i] < array[index])
+                    index = i;
+            return index;
         }
         public static void SwapElements(int[] array, int i, int j)
         {
@@ -39,15 +37,17 @@ namespace ArrayManagement
             {
                 // ritornare errore perche servono almeno due indici
                 Console.WriteLine("Errore: L'array deve contenere almeno due elementi per poterli scambiare");
+                return;
             }
-            else if (i > array.Length - 1 || j > array.Length - 1 || i == j)
-                Console.WriteLine("Errore: Indici non corretti");
-            else
+            if (i > array.Length - 1 || j > array.Length - 1 || i == j)
             {
-                int numDaCambiare = array[i];
-                array[i] = array[j];
-                array[j] = numDaCambiare;
+                Console.WriteLine("Errore: Indici non corretti");
+                return;
             }
+
+            int numToSwap = array[i];
+            array[i] = array[j];
+            array[j] = numToSwap;
         }
         public static void SortArray(int[] array)
         {

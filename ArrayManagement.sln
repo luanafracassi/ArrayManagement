@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArrayManagementConsole", "A
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestProjectArrayManagement", "TestProjectArrayManagement\TestProjectArrayManagement.csproj", "{6ED04C6C-67F9-4906-B0BA-97A0938B028A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArrayManagement.csprj", "ArrayManagement\ArrayManagement.csprj.csproj", "{88144690-DE3A-4AC0-8867-B9F3846833EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArrayManagement", "ArrayManagement\ArrayManagement.csproj", "{708B2BE8-D295-43E4-B13E-80A99B3ECBBD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{6ED04C6C-67F9-4906-B0BA-97A0938B028A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6ED04C6C-67F9-4906-B0BA-97A0938B028A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6ED04C6C-67F9-4906-B0BA-97A0938B028A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{88144690-DE3A-4AC0-8867-B9F3846833EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{88144690-DE3A-4AC0-8867-B9F3846833EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{88144690-DE3A-4AC0-8867-B9F3846833EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{88144690-DE3A-4AC0-8867-B9F3846833EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{708B2BE8-D295-43E4-B13E-80A99B3ECBBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{708B2BE8-D295-43E4-B13E-80A99B3ECBBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{708B2BE8-D295-43E4-B13E-80A99B3ECBBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{708B2BE8-D295-43E4-B13E-80A99B3ECBBD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
