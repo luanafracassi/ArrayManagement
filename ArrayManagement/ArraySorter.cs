@@ -1,19 +1,7 @@
-﻿using static System.Runtime.InteropServices.JavaScript.JSType;
-
-namespace ArrayManagement
+﻿namespace ArrayManagement
 {
     public static class ArraySorter
     {
-        public static bool StartsWithUpper(this string? str)
-        {
-            if (string.IsNullOrWhiteSpace(str))
-                return false;
-
-            char ch = str[0];
-            return char.IsUpper(ch);
-        }
-
-
         public static int FindIndexOfMin(int[] array, int fromIndex, int toIndex)
         {
             /* Considera un array di lunghezza n contenente numeri interi. Scrivi una funzione in C# che, 
